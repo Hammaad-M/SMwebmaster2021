@@ -1,0 +1,63 @@
+:root {
+  --primary-color: #EFEFEF;
+  --pop-color: #FF3B3F;
+  --text-color: #5D5C61;
+}
+
+h1 {
+  Font-Family: 'Oswald', Sans-Serif;
+  Font-Size: 48px;
+}
+
+nav {
+  height: 10vh;
+}
+
+main .set-bottom-space {
+  margin-bottom: 100px;
+}
+
+main .intro {
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 100px;
+  width: 1000px;
+}
+
+main .detail1 {
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 100px;
+  background-color: inherit;
+}
+
+main .image1 {
+  background-color: inherit;
+}
+
+main .detail2 {
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 100px;
+}
+
+main .image2 {
+  background-color: inherit;
+}
+
+main .detail3 {
+  margin-bottom: 100px;
+}
+
+main .image3 {
+  background-color: inherit;
+}
+
+main .detail4 {
+  margin-bottom: 100px;
+}
+
+main .image4 {
+  background-color: inherit;
+}
+/*# sourceMappingURL=product.css.map */
