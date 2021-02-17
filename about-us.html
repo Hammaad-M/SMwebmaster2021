@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us</title>
+    <link rel="stylesheet" href="css/about-us.css">
+    <link href="https://fonts.googleapis.com/css?family=Oswald|Quattrocento" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Abril+Fatface|Poppins:300" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+    <nav id="mainNavbar" class="navbar navbar-dark bg-dark navbar-expand-md py-0 fixed-top">         
+        <a href="index.html" class="navbar-brand">SALUD</a>         
+        <button class="navbar-toggler" data-toggle="collapse" aria-label="Collapse for Navagation" data-target="#navlinks">             
+            <span class="navbar-toggler-icon"></span>         
+        </button>         
+        <div class="collapse navbar-collapse" id="navlinks">             
+            <ul class="navbar-nav">                 
+                <li class="nav-item">                     
+                    <a href="index.html" class="nav-link">HOME</a>                 
+                </li>                 
+                <li class="nav-item">                     
+                    <a href="COVIDPAGE.html" class="nav-link">COVID</a>                 
+                </li>                 
+                <li class="nav-item">                     
+                    <a href="product.html" class="nav-link">PRODUCTS</a>                
+                </li>                 
+                <li class="nav-item">                     
+                    <a href="about-us.html" class="nav-link">ABOUT</a>                 
+                </li>             
+            </ul>         
+        </div>     
+    </nav>
+    <section class="about-us-header">
+        <h1 class="about-us-heading">About Us</h1>
+        <h2 class="about-us-subheading">Lorem ipsum dolor sit amet</h2>
+        <div class="scroll-anim">
+            <div class="scroll-icon-container s1">&#9660;</div>
+            <div class="scroll-icon-container s2">&#9660;</div>
+            <div class="scroll-icon-container s3">&#9660;</div>
+        </div>
+    </section>
+    <section class="about-us-intro desc">
+        <h2>Roots</h2>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Earum velit odit, recusandae tenetur facilis cupiditate maiores. Sit delectus ad atque, vero id explicabo deserunt nihil numquam laudantium veritatis architecto fuga error repellendus magnam ex, deleniti fugiat cumque nesciunt! Ipsum unde odit assumenda laudantium fugit? Iure sed, pariatur perferendis asperiores adipisci ducimus ratione perspiciatis vero accusantium odit alias delectus praesentium reiciendis. Vero nemo sit repellendus fugit voluptates quis reprehenderit in quia earum tenetur molestias necessitatibus atque obcaecati nihil quaerat, mollitia dolor accusantium maiores repudiandae illum et aut? Voluptatum dolor reiciendis aliquid. Sunt ipsam beatae suscipit distinctio. Eum vitae illum quo quas quam, accusantium quae rerum, at ex reiciendis dignissimos totam? Voluptas quod optio quisquam corrupti odit mollitia error quis commodi harum.</p>
+    </section>
+    <section class="about-us-conclusion desc">
+        <h2>Our Mission</h2>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fugit est, maiores a ducimus quam sed? Consequuntur sunt alias, modi pariatur beatae nesciunt veniam non, impedit omnis consequatur sint consectetur ut quas reiciendis est veritatis labore optio maxime voluptas, neque quisquam!</p>
+    </section>
+    <!-- footer placeholder -->
+    <footer style="width: 100%; color: white; background-color: black; height: 10vh; text-align: center;">*Footer goes here*</footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.0/gsap.min.js" integrity="sha512-1dalHDkG9EtcOmCnoCjiwQ/HEB5SDNqw8d4G2MKoNwjiwMNeBAkudsBCmSlMnXdsH8Bm0mOd3tl/6nL5y0bMaQ==" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.0/ScrollTrigger.min.js" integrity="sha512-QcYm1q7RbnXmwY7HJ0H7938IS0MalTPYqGUF0fIwQgEjMBt2tqjDBt+R5I+ppdwEohjMdHnFU0H+RxmrGQ8qcg==" crossorigin="anonymous"></script>
+    <script>
+        gsap.registerPlugin(ScrollTrigger);
+        const tl = gsap.timeline();
+
+        gsap.from(".about-us-intro", {
+            scrollTrigger: {
+                trigger: ".about-us-intro",
+                start:"top bottom"
+            },
+            y: 70,
+            opacity: 0,
+            duration: 1.3,
+            stagger: .4
+        });
+        gsap.from(".about-us-conclusion", {
+            scrollTrigger: {
+                trigger: ".about-us-conclusion",
+                start:"top bottom"
+            },
+            y: 90,
+            opacity: 0,
+            duration: 1.3,
+            stagger: .4
+        });
+        gsap.from(".about-us-heading", {
+            y: -30,
+            opacity: 0,
+            duration: 1.6,
+            stagger: .3
+        });
+        gsap.from(".about-us-subheading", {
+            y: 100,
+            opacity: 0,
+            duration: 1.6,
+            stagger: .3
+        });
+    </script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+        integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+        integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+        crossorigin="anonymous"></script>
+</body>
+</html>
