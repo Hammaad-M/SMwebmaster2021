@@ -1,10 +1,10 @@
 nav{
     color:#29648a;
+    height: 10vh;
 }
 #mainNavbar .navbar-brand{
     color: #ef383f;
     font-size: 1.5rem;
-    height: 10vh;
    
 }
 #mainNavbar .nav-link{
