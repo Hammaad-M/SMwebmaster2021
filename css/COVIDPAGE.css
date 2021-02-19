@@ -3,34 +3,9 @@ body {
     margin: 0;
     
 }
-#mainNavbar .navbar-brand{
-    color: #ef383f;
-    font-size: 1.5rem;
-}
-#mainNavbar .nav-link{
-    color:#a9a9a9;
-}
-#mainNavbar .nav-link:hover{
-    color:#ef383f;
-}
-#mainNavbar{
-    font-size: 1rem;
-}
-
-#upperBlurb{
-    font-weight:900;
-    font-size:3em;
-    margin:0.5em;
-}
-#mainLower{
-    font-family:'Raleway', sans-serif;
-    margin: 0.5em;
-}
-#red{
-    color: #ef383f;
-}
-@media(max-width: 1200px){
-    body{font-size: 1rem;}
+#drop-button {
+    background-color:gray;
+    
 }
 .img {
     width: 28%;
