@@ -1,3 +1,9 @@
+:root {
+  --primary-color: #EFEFEF;
+  --pop-color: #FF3B3F;
+  --text-color: #5D5C61;
+}
+
 h1 {
   font-family: 'Oswald', Sans-Serif;
   font-size: 48px;
