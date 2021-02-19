@@ -2,6 +2,7 @@
   --primary-color: #EFEFEF;
   --pop-color: #FF3B3F;
   --text-color: #5D5C61;
+  --bar-color: #343A40;
 }
 
 h1 {
@@ -44,6 +45,10 @@ nav {
 
 #mainNavbar .nav-link:hover {
   color: #ef383f;
+}
+
+footer {
+  background-color: var(--bar-color);
 }
 
 main {
