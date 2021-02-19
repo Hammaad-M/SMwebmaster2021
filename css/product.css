@@ -41,6 +41,7 @@ nav {
 }
 
 .container {
+  margin-top: 10vh;
   background-color: var(--primary-color);
 }
 
