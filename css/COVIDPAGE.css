@@ -3,6 +3,37 @@ body {
     margin: 0;
     
 }
+nav{
+    color:#29648a;
+    height: 10vh;
+}
+#mainNavbar .navbar-brand{
+    color: #ef383f;
+    font-size: 1.5rem;
+}
+#mainNavbar .nav-link{
+    color:#a9a9a9;
+}
+#mainNavbar .nav-link:hover{
+    color:#ef383f;
+}
+#mainNavbar{
+    font-size: 1rem;
+}
+
+#upperBlurb{
+    font-weight:900;
+    font-size:3em;
+    margin:0.5em;
+}
+#mainLower{
+    font-family:'Raleway', sans-serif;
+    margin: 0.5em;
+}
+#red{
+    color: #ef383f;
+}
+
 .img {
     width: 28%;
     height: 28%;
