@@ -6,6 +6,17 @@ nav{
     color:#29648a;
     height: 10vh;
 }
+
+.fakenav {
+    height: 10vh;
+    background-color: black;
+    width: 100%;
+    text-align: center;
+    color: white;
+    
+}
+
+
 #mainNavbar .navbar-brand{
     color: #ef383f;
     font-size: 1.5rem;
