@@ -46,60 +46,60 @@ nav {
   color: #ef383f;
 }
 
-.container {
+main {
   margin-top: 10vh;
   background-color: var(--primary-color);
 }
 
-.container .set-bottom-space {
+.set-bottom-space {
   margin-bottom: 50px;
 }
 
-.container #carouselWithIndicator {
+#carouselWithIndicator {
   margin-bottom: 50px;
 }
 
-.container .intro {
+.intro {
   margin-left: auto;
   margin-right: auto;
   margin-top: 50px;
   margin-bottom: 100px;
 }
 
-.container .detail1 {
+.detail1 {
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 100px;
   background-color: inherit;
 }
 
-.container .image1 {
+.image1 {
   background-color: inherit;
 }
 
-.container .detail2 {
+.detail2 {
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 100px;
 }
 
-.container .image2 {
+.image2 {
   background-color: inherit;
 }
 
-.container .detail3 {
+.detail3 {
   margin-bottom: 100px;
 }
 
-.container .image3 {
+.image3 {
   background-color: inherit;
 }
 
-.container .detail4 {
+.detail4 {
   margin-bottom: 100px;
 }
 
-.container .image4 {
+.image4 {
   background-color: inherit;
 }
 /*# sourceMappingURL=product.css.map */
