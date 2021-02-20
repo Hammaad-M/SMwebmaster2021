@@ -106,7 +106,7 @@ body {
     font-family: 'Poppins', sans-serif;
     text-align: left;
     font-size: 1.1vw;
-    width: 90%;
+    width: 110%;
     margin: auto;
     
 }
@@ -153,4 +153,8 @@ body {
 .titless {
     background-color: blanchedalmond;
     height: 50%;
+}
+.liste {
+    font-size: 1.1vw;
+    
 }
