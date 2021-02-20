@@ -112,7 +112,6 @@ body {
 }
 .over {
     color: black;   
-    background-color: #FF3B3F;
     width: 20%;
     height: 150%;
     margin-left: 5%;
@@ -142,12 +141,10 @@ body {
 }
 .overr {
     color: black;   
-    background-color: #FF3B3F;
     width: 40%;
     height: 150%;
     margin-right: 5%;
-    border-radius: 10%;
-    
+    border-radius: 10%;  
     float: right;
 }
 .vaca {
