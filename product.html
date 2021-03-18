@@ -213,7 +213,8 @@
     let lastClickedId = "";
     let productEnlarged = false;
     const images = ["1", "2", "3", "4"];
-
+    const slideShow = document.getElementById("productCarousel");
+    
     function enlarge(element) {
         if (defualtClick < 1) {
             if (!productEnlarged) {
@@ -223,6 +224,7 @@
                 document.body.style.color = "transparent";
                 $("body").css("overflow", "hidden");
                 window.scrollTo(0, 0); 
+                slideShow.style.display = "none";
                 images.forEach((i) => {
                     if (element.id != i) {
                         document.querySelector(".image" + i).style.display = "none";
@@ -232,6 +234,7 @@
             else {
                 $("body").css("overflow", "auto");
                 document.getElementById(lastClickedId).classList.remove("enlarged-product");
+                slideShow.style.display = "block";
                 productEnlarged = false;
                 document.body.style.color = "black";
                 images.forEach((i) => {
