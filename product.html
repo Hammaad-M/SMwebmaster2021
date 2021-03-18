@@ -222,6 +222,7 @@
                 productEnlarged = true;
                 document.body.style.color = "transparent";
                 $("body").css("overflow", "hidden");
+                window.scrollTo(0, 0); 
                 images.forEach((i) => {
                     if (element.id != i) {
                         document.querySelector(".image" + i).style.display = "none";
