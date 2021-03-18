@@ -1,0 +1,97 @@
+body{
+    background-color: #efefef;
+    font-family:'Oswald', sans-serif;
+}
+nav{
+    color:#29648a;
+    
+}
+.content{
+    margin-bottom: 100px;
+    margin-top: 100px;
+}
+#mainNavbar .navbar-brand{
+    color: #ef383f;
+    font-size: 1.5rem;
+}
+#mainNavbar .nav-link{
+    color:#a9a9a9;
+}
+#mainNavbar .nav-link:hover{
+    color:#ef383f;
+}
+#mainNavbar{
+    font-size: 1rem;
+}
+
+#upperBlurb{
+    font-weight:900;
+    font-size:3em;
+}
+#mainLower{
+    font-family:'Raleway', sans-serif;
+    
+}
+.navbar.scrolled{
+    background:navy;
+    transition: background 500ms;
+
+}
+#red{
+    color: #ef383f;
+}
+@media(max-width: 1200px){
+    body{font-size: 1rem;}
+}
+.staff{
+    margin: 75 px 0;
+    margin-bottom: 50px;
+}
+h1{
+    text-align: center;
+    font-weight: bold;
+    letter-spacing: 8px;
+    padding-bottom: 10px;
+    margin-top: 5em;
+    
+}
+h1:after{
+    content: '';
+    display:block;
+    height:0.2em;
+    width:150px;
+    margin: 10px auto;
+}
+img {
+ 
+    width:  20rem;
+    height: 20rem;
+    object-fit: scale-down;
+    margin-bottom: 20px;
+    transition: width 500ms, height 500ms ;
+    transition-timing-function: ease;
+}
+img:hover{
+    width:25rem;
+    height:25rem;
+}
+.profile{
+    margin-top: 25px;
+    font-family:'Raleway', sans-serif;
+}
+.profile .img-box{
+    opacity:1;
+    display: block;
+    position: relative;
+}
+.profile h2{
+    font-size: 2em;
+    font-weight: bold;
+    margin-top: 20px;
+   
+}
+
+#title{
+    margin-top: 10px;
+    padding: 20px; 
+}
