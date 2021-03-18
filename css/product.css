@@ -9,7 +9,29 @@ h1 {
   font-family: 'Oswald', Sans-Serif;
   font-size: 48px;
 }
-
+.enlarged-product {
+    width: 70%;
+    height: max-content;
+    position: absolute;
+    padding: 3em;
+    background-color: red;
+    border: 5px solid black;
+    border-radius: 15px;
+    color: white;
+    text-align: center;
+    transition: 1.6s;
+    margin: auto;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+    top: 50%;
+}
+.enlarged-product img {
+    max-width: 90%;
+    margin: 0;
+    margin-bottom: 5vh;
+    border: 2px solid white;
+}
 h5 {
   font-family: 'Oswald', Sans-Serif;
   font-size: 48px;
