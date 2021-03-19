@@ -99,10 +99,9 @@ main {
 }
 
 .detail1 {
-  margin-left: auto;
-  margin-right: auto;
-  margin-bottom: 100px;
-  background-color: inherit;
+  /* margin-left: auto;
+  margin-right: auto; */
+  /* margin-bottom: 100px; */
 }
 
 .image1 {
@@ -110,9 +109,9 @@ main {
 }
 
 .detail2 {
-  margin-left: auto;
-  margin-right: auto;
-  margin-bottom: 100px;
+  /* margin-left: auto;
+  margin-right: auto; */
+  /* margin-bottom: 100px; */
 }
 
 .image2 {
@@ -120,7 +119,7 @@ main {
 }
 
 .detail3 {
-  margin-bottom: 100px;
+  /* margin-bottom: 100px; */
 }
 
 .image3 {
@@ -128,7 +127,7 @@ main {
 }
 
 .detail4 {
-  margin-bottom: 100px;
+  /* margin-bottom: 100px; */
 }
 
 .image4 {
