@@ -21,11 +21,11 @@ footer{
 }
 footer a {
     color: #EFEFEF;
-    font-size: 1.5rem; 
+    font-size: 1rem; 
 }
 footer p {
     color: #EFEFEF;
     font-size: 1rem; 
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Oswald',sans-serif;
     text-shadow: none;
 }
