@@ -2,6 +2,8 @@ body{
     background-color: #efefef;
     font-family:'Oswald', sans-serif;
     overflow-x: hidden;
+    width: 100vw;
+    max-width: 100vw;
 }
 nav{
     color:#29648a;
