@@ -79,11 +79,7 @@ img:hover{
     margin-top: 25px;
     font-family:'Raleway', sans-serif;
 }
-.profile .img-box{
-    opacity:1;
-    display: block;
-    position: relative;
-}
+
 .profile h2{
     font-size: 2em;
     font-weight: bold;
