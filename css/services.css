@@ -1,0 +1,69 @@
+body {
+    background-color:red;   
+    
+}
+.header {
+    height: 400px;
+    width: 99vw;
+    background-image: url("https://images.pexels.com/photos/2383010/pexels-photo-2383010.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+    opacity: 0.75;
+    background-size: cover;
+    background-position-y: -20vh;
+}
+
+.motto {
+    text-align: center;
+    font-family: 'Satisfy', cursive;
+    font-size: 50px;
+}
+
+.card {
+    width:18rem; 
+    background-color: white; 
+    border-color: white;
+
+}
+.oog {
+    padding-left: 40px;
+    border-radius: 25px;
+   
+    
+  
+
+
+}
+.zoom {
+    
+    
+    transition: transform .2s; /* Animation */
+
+}
+#zoom1 {
+    margin-left: 12%; width: min-content; float: left; 
+}
+#zoom2 {
+    margin-left: 7.65%;float: left;width: min-content;
+}
+.zoom:hover {
+    transform: scale(1.1); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    
+  }
+  .overview {
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    font-size: 1.5vw;
+    width: 90%;
+    margin: auto;
+}
+.blue {
+    color: #007cc7;
+    font-size: 1.2em;
+
+}
+.cards {
+    width: 100%;
+    background-color: rgb(228, 228, 228);
+    height: 35em;
+    
+}
