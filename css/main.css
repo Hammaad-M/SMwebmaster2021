@@ -4,8 +4,7 @@ nav{
 }
 #mainNavbar .navbar-brand{
     color: #ef383f;
-    font-size: 1.5rem;
-   
+    font-size: 1.5rem;   
 }
 #mainNavbar .nav-link{
     color:#a9a9a9;
@@ -15,4 +14,18 @@ nav{
 }
 #mainNavbar{
     font-size: 1rem;
+}
+
+footer{
+    height:15vh;
+}
+footer a {
+    color: #EFEFEF;
+    font-size: 1.5rem; 
+}
+footer p {
+    color: #EFEFEF;
+    font-size: 1rem; 
+    font-family: 'Poppins', sans-serif;
+    text-shadow: none;
 }
