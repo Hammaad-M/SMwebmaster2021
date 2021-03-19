@@ -96,6 +96,8 @@ h2 {
 
 .desc h2 {
   margin-bottom: 1.8em;
+  font-weight: 800;
+  font-size: 45px;
 }
 
 .about-us-intro {
@@ -108,6 +110,8 @@ h2 {
   text-shadow: 2px 2px black;
   color: #A9A9A9;
   margin-top: 0;
+  font-weight: 800;
+  font-size: 45px;
 }
 
 .about-us-conclusion {
@@ -115,7 +119,10 @@ h2 {
   background-color: #A9A9A9;
   color: #464866;
 }
-
+.about-us-conclusion h2 {
+  font-weight: 800;
+  font-size: 45px;
+}
 .about-us-conclusion p {
   text-shadow: 2px 2px white;
 }
