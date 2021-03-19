@@ -84,18 +84,14 @@ main {
 }
 
 .add-bottom-space {
-  margin-bottom: 50px;
-}
-
-#carouselWithIndicator {
-  margin-bottom: 50px;
+  margin-bottom: 2vh;
 }
 
 .intro {
   margin-left: auto;
   margin-right: auto;
-  margin-top: 50px;
-  margin-bottom: 100px;
+  margin-top: 3vh;
+  margin-bottom: 6vh;
 }
 
 .detail1 {
