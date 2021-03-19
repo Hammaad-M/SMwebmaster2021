@@ -5,7 +5,7 @@ body {
 .header {
     height: 400px;
     width: 99vw;
-    background-image: url("https://images.pexels.com/photos/2383010/pexels-photo-2383010.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+    background-image: "css/images/pexels-total-shape-2383010.jpg";
     opacity: 0.75;
     background-size: cover;
     background-position-y: -20vh;
