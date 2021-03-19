@@ -1,6 +1,7 @@
 body{
     background-color: #efefef;
     font-family:'Oswald', sans-serif;
+    overflow-x: hidden;
 }
 nav{
     color:#29648a;
