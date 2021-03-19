@@ -8,15 +8,15 @@
     <!-- my css -->
     <link rel="stylesheet" href="css/product.css">
     <link rel="stylesheet" href="css/products.css">
+    <link rel="stylesheet" href="css/main.css">
     <!-- font import -->
     <!-- 19 for heading-->
     <link href="https://fonts.googleapis.com/css?family=Oswald|Quattrocento" rel="stylesheet">
     <!-- 5 for content  -->
     <link href="https://fonts.googleapis.com/css?family=Abril+Fatface|Poppins:300" rel="stylesheet">
-    <!-- offline version for BS4.0 -->
-    <!-- <link rel="stylesheet" href="BS4/css/bootstrap.css">
-    <script src="/BS4/js/bootstrap.js"></script> -->
 
+    <!-- font-awesome import -->
+    <script src="https://kit.fontawesome.com/ca768fc27b.js" crossorigin="anonymous"></script>
     <!-- online version for BS4.0 -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 
@@ -145,11 +145,11 @@
                 </div>
                 <!-- section 2 -->
                 <div id="2" class="add-bottom-space row text-center padding products-container">
-                    <section class="image2 col-xl-6 col-lg-6 col-md-6">
+                    <section class="image2 col-xl-6 col-lg-6 col-md-6 order-2 order-xl-1 order-lg-1 order-md-1">
                         <img src="css/images/product_description2.jpg" alt="" width="512px">
                         <img src="" alt="">
                     </section>
-                    <section class="detail2 col-xl-6 col-lg-6 col-md-6">
+                    <section class="detail2 col-xl-6 col-lg-6 col-md-6 order-1 order-xl-2 order-lg-2 order-md-2">
                         <h1>Masks</h1>
                         <div class="text"> 
                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae veniam hic neque ea reiciendis, doloribus animi aspernatur expedita sed molestias aliquam modi asperiores fugiat rerum, illo sequi iste illum incidunt.</p>
@@ -172,11 +172,11 @@
                     </section>
                 </div>
                 <div id="4" class="row text-center padding products-container">
-                    <section class="image4 col-xl-6 col-lg-6 col-md-6">
+                    <section class="image4 col-xl-6 col-lg-6 col-md-6 order-2 order-xl-1 order-lg-1 order-md-1">
                         <img src="css/images/product_description4.jpg" alt="" width="512px">
                         <img src="" alt="">
                     </section>
-                    <section class="detail4 col-xl-6 col-lg-6 col-md-6">
+                    <section class="detail4 col-xl-6 col-lg-6 col-md-6 order-1 order-xl-2 order-lg-2 order-md-2">
                         <h1>First-aid kit</h1>
                         <div class="text"> 
                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae veniam hic neque ea reiciendis, doloribus animi aspernatur expedita sed molestias aliquam modi asperiores fugiat rerum, illo sequi iste illum incidunt.</p>
@@ -188,8 +188,19 @@
         </section> 
     </main>  
 
-    <footer>
-        <p class="text-center">footer</p>
+    <footer id="mainNavbar" style = "background-color: #343A40;">
+        <div class="row text-center padding container-fluid" style="background-color: #343A40;">
+            <div class="col-xl-4 col-lg-4 col-md-4" style="margin-top: 1vh;">
+                <a href="index.html" class="navbar-brand" style="text-align: center; color: #ef383f; font-family: 'Oswald',sans-serif;">SALUD</a> 
+            </div>
+            <div class="col-xl-4 col-lg-4 col-md-4" style="background-color: #343A40; margin-top: 2.5vh;">
+                <p><i class="fas fa-envelope" style="color: #EFEFEF;"></i> email@example.com</p>
+            </div>
+            <div class="col-xl-4 col-lg-4 col-md-4" style="background-color: #343A40; margin-top: 2.5vh; margin-bottom: 2vh;">
+                <p><i class="fas fa-home" style="color: #EFEFEF;"></i> 100 140th Ave SE, Bellevue, WA 98005</p>
+            </div>
+        </div>
+        <p style="background-color: #343A40; text-align: center;">Copyright © 2021  Sammamish High School TSA</p>
     </footer>
         
     <!-- for BS4.0 -->

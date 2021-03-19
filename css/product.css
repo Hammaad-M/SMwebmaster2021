@@ -69,14 +69,14 @@ nav {
   color: #ef383f;
 }
 
-footer {
+/* footer {
   background-color: var(--bar-color);
   margin-bottom: 0;
 }
 
 footer p {
   color: #EFEFEF;
-}
+} */
 
 main {
   margin-top: 10vh;
