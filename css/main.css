@@ -22,6 +22,8 @@ footer{
 footer a {
     color: #EFEFEF;
     font-size: 1rem; 
+    font-family: 'Oswald',sans-serif;
+    text-shadow: none;
 }
 footer p {
     color: #EFEFEF;
